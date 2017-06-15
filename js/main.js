@@ -119,13 +119,14 @@ function GetQueryString(name)
 function showOver()
 {
 	var ua = navigator.userAgent.toLowerCase();
+	/*
 	if (ua.toString().indexOf("micromessenger") != -1)
 	{
 
 		document.getElementById('popWindow').style.display = 'block';
 	}
 	else
-	{
+	{*/
 
 	//var linkAddress = "http://test.gymj.331wan.com/download/" + GetQueryString("qid") +"/gymj.apk";
 	//var linkAddress = "http://mj.51uban.com/api/v3.0/share/download/channel?X-Lvan-App-Key="+GetQueryString("X-Lvan-App-Key")+"&X-Lvan-Channel="+GetQueryString("X-Lvan-Channel") +"&X-Lvan-Platform=1";
@@ -133,8 +134,6 @@ function showOver()
 				window.location = linkAddress;
 
 				$.get("android", function() {});
-
-	}
 }
 
 function showOver2()
