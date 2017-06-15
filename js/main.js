@@ -129,7 +129,7 @@ function showOver()
 
 	//var linkAddress = "http://test.gymj.331wan.com/download/" + GetQueryString("qid") +"/gymj.apk";
 	//var linkAddress = "http://mj.51uban.com/api/v3.0/share/download/channel?X-Lvan-App-Key="+GetQueryString("X-Lvan-App-Key")+"&X-Lvan-Channel="+GetQueryString("X-Lvan-Channel") +"&X-Lvan-Platform=1";
-    var linkAddress = "http://a.app.qq.com/o/simple.jsp?pkgname=com.iwgame.zzmj&android_schema='zzmj://com.iwgame.zzmj'";
+    var linkAddress = "http://a.app.qq.com/o/simple.jsp?pkgname=com.iwgame.zzmj&android_schema='iwzzmj://roomid:1232'";
 				window.location = linkAddress;
 
 				$.get("android", function() {});
