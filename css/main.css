@@ -1,0 +1,96 @@
+*
+{
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+}
+
+.hidden
+{
+	visibility : hidden;
+}
+
+body
+{
+	border: 0px;
+	word-spacing: normal;
+	text-transform: none;
+	line-height: normal;
+	padding: 0px;
+	text-align: center;
+	color: #444;
+	font: normal 16px Helvetica, Arial, sans-serif;
+	width:640px;
+	background-color: #3d834d;
+}
+html{width:640px;}
+#main
+{
+	background-image: url(../images/background.jpg);
+	background-position: center -24px;
+	background-color: #3d834d;
+	width: 640px;
+	height: 100%;
+	margin: 0 auto;
+	position: absolute;
+	padding: 0;
+}
+
+#button
+{
+	position: absolute;
+	bottom: 290px;
+}
+
+.bt
+{
+	background-size: 90% 90%;
+	background-position: center;
+	width: 50%;
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: white;
+}
+
+.one
+{
+	background-image: url(../images/btn_download_Andriod.png);
+}
+
+.two
+{
+	background-image: url(../images/btn_download_IOS.png);
+}
+
+.icon
+{
+	width: 45%;
+	height: 34%;
+	position: relative;
+	top: 35%;
+	background-size: 100% auto;
+}
+
+.text
+{
+	color: rgba(169, 75, 3, 0);
+	font-size: 0.875rem;
+	font-weight: bold;
+}
+
+.popWindow
+{
+	background-color: rgba(0, 0, 0, 0.6);
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	/* 	filter: alpha(opacity = 50);
+        opacity: 0.5; */
+	z-index: 1;
+	position: absolute;
+}
+
+.slogan-0{position:absolute;width:100%;bottom: 3%;left:0;}
