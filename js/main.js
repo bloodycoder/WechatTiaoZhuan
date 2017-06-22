@@ -48,12 +48,12 @@ function resizeDiv()
 	{
 
 		$("#main").attr("style", "background-size: 100% auto");//.height($("#main").width() * bg_height / bg_width + "px");
-		$(".bt").width(button_width * width  / bg_width+15 + "px").height(button_height * width  / bg_width+15  + "px");
+		$(".bt").width(button_width * width  / bg_width+100 + "px").height(button_height * width  / bg_width+30  + "px");
 	}
 	else
 	{
 		$("#main").attr("style", "background-size: auto 100%");
-		$(".bt").width(button_width * height / bg_height+15 + "px").height(button_height * height / bg_height+15 + "px");
+		$(".bt").width(button_width * height / bg_height + "px").height(button_height * height / bg_height + "px");
 	}
 	if($(".main").height()>$(window).height()){
 		$(".slogan-0").css("bottom",($(".main").height()-$(window).height())*1+30+"px");
@@ -71,7 +71,7 @@ function resizeDiv()
 	
 	setTimeout(function(){
 		$("#button").css("z-index","999");
-		$("#button").css("bottom","200px").css("marginLeft","200px");
+		$("#button").css("bottom","200px").css("marginLeft","150px");
 		//$("#button").css("bottom":"-120px");
 		//$("#button").css("marginLeft":"0px");
 		if($("#button").offset().top<610){
