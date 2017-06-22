@@ -132,8 +132,8 @@ function showOver()
 
 	//var linkAddress = "http://test.gymj.331wan.com/download/" + GetQueryString("qid") +"/gymj.apk";
 	//var linkAddress = "http://mj.51uban.com/api/v3.0/share/download/channel?X-Lvan-App-Key="+GetQueryString("X-Lvan-App-Key")+"&X-Lvan-Channel="+GetQueryString("X-Lvan-Channel") +"&X-Lvan-Platform=1";
-    var linkAddress = "http://a.app.qq.com/o/simple.jsp?pkgname=com.iwgame.zzmj&android_schema='iwzzmj://com.iwgame.zzmj/?arg0=462258'";
-	//var linkAddress = "http://a.app.qq.com/o/simple.jsp?pkgname=com.iwgame.zzmj&android_schema='iwzzmj://com.iwgame.zzmj/?room_id=12304'";
+    //var linkAddress = "http://a.app.qq.com/o/simple.jsp?pkgname=com.iwgame.zzmj&android_schema='iwzzmj://com.iwgame.zzmj/?arg0=462258'";
+	var linkAddress = "http://a.app.qq.com/o/simple.jsp?pkgname=com.iwgame.zzmj&android_schema='iwzzmj://com.iwgame.zzmj/?room_id=462258'";
 				window.location = linkAddress;
 
 				$.get("android", function() {});
