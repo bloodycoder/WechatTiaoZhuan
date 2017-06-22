@@ -48,12 +48,12 @@ function resizeDiv()
 	{
 
 		$("#main").attr("style", "background-size: 100% auto");//.height($("#main").width() * bg_height / bg_width + "px");
-		$(".bt").width(button_width * width  / bg_width + "px").height(button_height * width  / bg_width  + "px");
+		$(".bt").width(button_width * width  / bg_width+15 + "px").height(button_height * width  / bg_width+15  + "px");
 	}
 	else
 	{
 		$("#main").attr("style", "background-size: auto 100%");
-		$(".bt").width(button_width * height / bg_height + "px").height(button_height * height / bg_height + "px");
+		$(".bt").width(button_width * height / bg_height+15 + "px").height(button_height * height / bg_height+15 + "px");
 	}
 	if($(".main").height()>$(window).height()){
 		$(".slogan-0").css("bottom",($(".main").height()-$(window).height())*1+30+"px");
