@@ -55,7 +55,6 @@ function resizeDiv()
 		$("#main").attr("style", "background-size: auto 100%");
 		$(".bt").width(button_width * height / bg_height + "px").height(button_height * height / bg_height + "px");
 	}
-	
 	if($(".main").height()>$(window).height()){
 		$(".slogan-0").css("bottom",($(".main").height()-$(window).height())*1+30+"px");
 	}
@@ -69,7 +68,12 @@ function resizeDiv()
 		// $(".slogan-0").css("bottom","0");
 		// $("#button").css({"bottom":$(".slogan-0").css("bottom").replace("px","")*1+$(".slogan-0").height()*1+"px"});
 	// }
+	
 	setTimeout(function(){
+		$("#button").css("z-index","999");
+		$("#button").css("bottom","200px").css("marginLeft","200px");
+		//$("#button").css("bottom":"-120px");
+		//$("#button").css("marginLeft":"0px");
 		if($("#button").offset().top<610){
 		$(".slogan-0").css("bottom","-50px");
 		$("#button").css({"bottom":$(".slogan-0").css("bottom").replace("px","")*1+$(".slogan-0").height()*1+"px"});
