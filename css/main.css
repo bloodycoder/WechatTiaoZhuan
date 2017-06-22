@@ -53,7 +53,9 @@ html{width:640px;}
 	font-weight: bold;
 	color: white;
 }
-
+.mybt{
+	background-image: url(../images/btn_download_Andriod.png);
+}
 .one
 {
 	background-image: url(../images/btn_download_Andriod.png);

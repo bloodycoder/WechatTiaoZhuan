@@ -59,13 +59,11 @@ function resizeDiv()
 	if($(".main").height()>$(window).height()){
 		$(".slogan-0").css("bottom",($(".main").height()-$(window).height())*1+30+"px");
 	}
-	
-	
 	//$("#main").css({"background-image":"url(./images/background.jpg)","background-position": "center"});
 	//$("#friendWindow").css("display","none");
     //$("#button").css("visibility","visible");
-	$("#button").removeClass("hidden");
-	$("#button").css({"bottom":$(".slogan-0").css("bottom").replace("px","")*1+$(".slogan-0").height()*1+"px"});
+	//$("#button").removeClass("hidden");
+	//$("#button").css({"bottom":$(".slogan-0").css("bottom").replace("px","")*1+$(".slogan-0").height()*1+"px"});
 	
 	// if($("#button").css("bottom").replace("px","")*1+$("#button").height()>$(window).height()){
 		// $(".slogan-0").css("bottom","0");
